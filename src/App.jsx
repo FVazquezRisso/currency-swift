@@ -84,6 +84,7 @@ export default function App() {
             mode="currency"
             currency={fromCode.code}
             locale="en-US"
+            className="input"
           />
         </div>
         <Button
@@ -104,6 +105,7 @@ export default function App() {
             currency={toCode.code}
             locale="en-US"
             disabled
+            className="input"
           />
         </div>
       </div>
